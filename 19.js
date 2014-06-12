@@ -116,47 +116,47 @@ Q[8] = "Delivery";
 Q[9] = "Conclusion";
 Q[10] = "Ethics";
 
-Ans[1][1] = "The speaker was audience centered.";
-Ans[1][2] = "The speaker adapted to the listeners.";
+Ans[1][1] = "You were audience centered.";
+Ans[1][2] = "You adapted to the listeners.";
 
-Ans[2][1] = "The introduction caught my attention.";
-Ans[2][2] = "The introduction provided an overview of the main ideas.";
-Ans[2][3] = "The introduction established the speaker’s credibility.";
-Ans[2][4] = "The introduction established motivation To listen.";
+Ans[2][1] = "Your introduction caught my attention.";
+Ans[2][2] = "Your introduction provided an overview of the main ideas.";
+Ans[2][3] = "Your introduction established your credibility.";
+Ans[2][4] = "Your introduction established motivation To listen.";
 
-Ans[3][1] = "The topic was appropriate was to the audience.";
-Ans[3][2] = "The topic was appropriate was to the occasion.";
-Ans[3][3] = "The topic was appropriate was for the speaker.";
-Ans[3][4] = "The topic was appropriate was for the Time limit.";
+Ans[3][1] = "Your topic was appropriate was to the audience.";
+Ans[3][2] = "Your topic was appropriate was to the occasion.";
+Ans[3][3] = "Your topic was appropriate was for the speaker.";
+Ans[3][4] = "Your topic was appropriate was for the Time limit.";
 
-Ans[4][1] = "The purpose was clear.";
-Ans[4][2] = "The purpose was appropriate for the audience.";
-Ans[4][3] = "The purpose was achieved.";
+Ans[4][1] = "Your purpose was clear.";
+Ans[4][2] = "Your purpose was appropriate for the audience.";
+Ans[4][3] = "Your purpose was achieved.";
 
-Ans[5][1] = "The speech had an introduction, body and conclusion.";
-Ans[5][2] = "The speaker used transitions And signposts to clarify the organization.";
-Ans[5][3] = "The Main ideas were clear To the audience.";
+Ans[5][1] = "Your speech had an introduction, body and conclusion.";
+Ans[5][2] = "You used transitions and signposts to clarify the organization.";
+Ans[5][3] = "Your Main ideas were clear To the audience.";
 
-Ans[6][1] = "The supporting material was credible.";
-Ans[6][2] = "The supporting material was varied and interesting.";
-Ans[6][3] = "The speaker used evidence to support conclusion.";
-Ans[6][4] = "The speaker used appropriately used stories and illustrations.";
+Ans[6][1] = "Your supporting material was credible.";
+Ans[6][2] = "Your supporting material was varied and interesting.";
+Ans[6][3] = "You used evidence to support conclusion.";
+Ans[6][4] = "You used appropriately used stories and illustrations.";
 
-Ans[7][1] = "The visual aids were large to be seen clearly.";
-Ans[7][2] = "The visual aids were attractive and understandable.";
-Ans[7][3] = "The visual aids were introduced at appropriate points.";
+Ans[7][1] = "Your visual aids were large to be seen clearly.";
+Ans[7][2] = "Your visual aids were attractive and understandable.";
+Ans[7][3] = "Your visual aids were introduced at appropriate points.";
 
-Ans[8][1] = "The speaker made appropriate eye contact with the audience.";
-Ans[8][2] = "The speaker made appropriately varied his or her voice tone.";
-Ans[8][3] = "The speaker made used appropriate gestures.";
-Ans[8][4] = "The speaker made used good posture and effective movement.";
+Ans[8][1] = "You made appropriate eye contact with the audience.";
+Ans[8][2] = "You made appropriately varied your voice tone.";
+Ans[8][3] = "You made used appropriate gestures.";
+Ans[8][4] = "You made used good posture and effective movement.";
 
-Ans[9][1] = "The speaker’s summarize the key points.";
-Ans[9][2] = "The speaker ended the speech in a memorable, effective way.";
+Ans[9][1] = "You summarize the key points.";
+Ans[9][2] = "You ended the speech in a memorable, effective way.";
 
-Ans[10][1] = "The speaker cited sources for information and ideas appropriately.";
-Ans[10][2] = "The speaker presented viewpoints other than his or her own.";
-Ans[10][3] = "The speaker clearly stated the true purpose of the speech.";
+Ans[10][1] = "You cited sources for information and ideas appropriately.";
+Ans[10][2] = "You presented viewpoints other than your own.";
+Ans[10][3] = "You clearly stated the true purpose of the speech.";
 
 
 function Main() {
@@ -188,15 +188,12 @@ NavBar1.onclick = function(choice) { savethefunction_rvar="";
         for   (x = 1; x  <= Qm; x ++) {
           myCtrl[x] = eval("RadioButton"  +  x);
           y = myCtrl[x].value();
- //MsgBox Ans(x,y)
           Mess.value  = Mess.value  +  '\n'  +  "  - "  +  Ans[x][y];
         }
 
-        Mess.value = Mess.value  +  '\n'  +  '\n'  +  "I hope my evaluation will help you to become an even better presenter."  +  '\n'  +  '\n'  +  "Sincerely,"  +  '\n'  +  "The Evaluation Team";
+        Mess.value = Mess.value  +  '\n'  +  '\n'  +  "I hope our evaluation will help you to become an even better presenter."  +  '\n'  +  '\n'  +  "Sincerely,"  +  '\n'  +  "The Evaluation Team";
 
         ChangeForm(Form2);
- //Form1.style.display="none"
- //Form2.style.display="block"     
       }
       ShowQ(Qn);
     }
@@ -264,7 +261,11 @@ NSB.addProperties(Form2);
 
 
 Button1.onclick = function() { savethefunction_rvar="";
-  email(txtEmail.value,txtSubject.value,Mess.value);
+  if(txtEmail.value != "") {
+    email(txtEmail.value,txtSubject.value,Mess.value);
+ } else {
+    _msgbox_confirm("Please Enter Email");
+  }
 return savethefunction_rvar; }
 
  //This function constructs an HTML object which calls the Mail app
