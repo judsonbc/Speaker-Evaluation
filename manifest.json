@@ -1,0 +1,12 @@
+{ "manifest_version": 2,
+  "name": "SpeakerEvaluation",
+  "version": "1.0.1",
+  "offline_enabled": true,
+  "description": "",
+  "display_in_launcher": true,
+  "display_in_new_tab_page": true,
+  "short_name": "SpeakerEvaluation",
+  "icons": { "16": "nsb/images/16.png",
+            "128": "nsb/images/128.png" },
+  "author": "CPSU",
+  "app": {"background": {"scripts": ["background.js"]}}}

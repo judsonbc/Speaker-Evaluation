@@ -1,0 +1,122 @@
+﻿<!DOCTYPE HTML>
+<html manifest="OfflineApp.appcache">
+<head>
+<meta charset="utf-8">
+<title>SpeakerEvaluation</title>
+<meta name="generator" content="NSB/AppStudio 4.1.2.0$" />
+<meta name='date' content='2014-06-12 14:07:41.705000' />
+<meta name='version' content='1.0.1' />
+<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no, minimal-ui' />
+<meta name='apple-mobile-web-app-capable' content='YES' />
+<meta name='mobile-web-app-capable' content='yes' />
+<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+<meta name='apple-mobile-web-app-title' content='' />
+<meta name='copyright' content='CPSU' />
+<noscript><h1>JavaScript must be enabled!</h1></noscript>
+<link rel='apple-touch-icon' href='nsb/images/LauncherIcon57.png' />
+<!-- Startup images -->
+<!-- iOS 6 & 7 iPad (retina, portrait) -->
+<link href='splash/ios/1536x2008.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPad (retina, landscape) -->
+<link href='splash/ios/1496x2048.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: landscape)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPad (portrait) -->
+<link href='splash/ios/768x1004.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPad (landscape) -->
+<link href='splash/ios/748x1024.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: landscape)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPhone 5 -->
+<link href='splash/ios/640x1096.png'
+      media='(device-width: 320px) and (device-height: 568px)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPhone (retina) -->
+<link href='splash/ios/640x920.png'
+      media='(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPhone -->
+<link href='splash/ios/320x460.png'
+      media='(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<link rel='shortcut icon' sizes='196x196' href='nsb/images/196.png' />
+<script src="nsb/jquery.js"></script>
+<script src="nsb/hfunc.js"></script>
+<link href="nsb/nsbstyle.css" rel="stylesheet">
+<script src="nsb/fastclick.js"></script>
+<script src="nsb/complexfunctions.js"></script>
+<script src="nsb/jquery.mobile.js"></script>
+<link href="nsb/jquery.mobile.css" rel="stylesheet">
+
+
+
+<style type="text/css">
+#Image1 {position:absolute; left:288px; right:auto; top:0px; bottom:auto; height:32px; width:24px}
+#RadioButton1 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#NavBar1 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:288px}
+#Label1 {position:absolute; left:16px; right:auto; top:80px; bottom:auto; height:56px; width:296px}
+#Label2 {position:absolute; left:8px; right:auto; top:48px; bottom:auto; height:24px; width:304px}
+#RadioButton2 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#RadioButton3 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#RadioButton4 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#RadioButton5 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#RadioButton6 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#RadioButton7 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#RadioButton8 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:184px; width:288px}
+#RadioButton9 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#RadioButton10 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:288px}
+#Image2 {position:absolute; left:272px; right:auto; top:8px; bottom:auto; height:32px; width:24px}
+#Label21 {position:absolute; left:8px; right:auto; top:56px; bottom:auto; height:24px; width:304px}
+#NavBar2 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:288px}
+#Mess {position:absolute; left:16px; right:auto; top:168px; bottom:auto; height:208px; width:288px}
+#txtSubject { text-align: left; font-size:10px; font-family: ; font-style: ; font-weight: ;   height:auto;  }
+#txtSubject_wrapper > div { position: absolute; width:240px; left:64px; right:auto; top:136px; height:auto; margin:0px;  }
+#txtEmail { text-align: left; font-size:10px; font-family: ; font-style: ; font-weight: ;   height:auto;  }
+#txtEmail_wrapper > div { position: absolute; width:240px; left:64px; right:auto; top:104px; height:auto; margin:0px;  }
+#Label22 {position:absolute; left:16px; right:auto; top:112px; bottom:auto; height:auto; width:70px}
+#Label23 {position:absolute; left:16px; right:auto; top:144px; bottom:auto; height:auto; width:70px}
+#Button1 {position:absolute; left:104px; right:auto; top:384px; bottom:auto; height:32px; width:112px}
+#Image3 {position:absolute; left:282px; right:auto; top:18px; bottom:auto; height:32px; width:24px}
+#NavBar3 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:320px}
+#TextArea1 {position:absolute; left:8px; right:auto; top:104px; bottom:auto; height:288px; width:304px}
+body * {font-family:helvetica}
+</style>
+</head>
+<body style="margin:0px;-ms-touch-action:none;">
+<script src="11.js"></script>
+<div data-role="page" id="Page_jqm" data-theme="a" style="">
+
+<form id="Form1" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:black; top:0px; left:0px; width:320px; ">
+<script src="13.js"></script>
+</form>
+
+
+<form id="Form2" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:black; top:0px; left:0px; width:320px; ">
+<script src="15.js"></script>
+</form>
+
+
+<form id="Form3" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:black; top:0px; left:0px; width:320px; ">
+<script src="17.js"></script>
+</form>
+
+</div>
+<script src="19.js"></script>
+
+</body>
+</html>
