@@ -17,9 +17,6 @@ window.addEventListener('load', function() {
   NSB.NavBar_jqm_init('NavBar1','Previous, Next');
   NSB.addProperties(NavBar1);
   (function(){var d,i,s=''.split(',');for(i=0;i<s.length;i++){if(trim(s[i])!=''){d=document.getElementById('NavBar1_'+i);(function(i){d.onclick=function(){ChangeForm(document.getElementById(s[i]))}})(i)}}})()
-  Label1.style.lineHeight='56px'; 
-
-  NSB.addProperties(Label1);
   Label2.style.lineHeight='24px'; 
 
   NSB.addProperties(Label2);
@@ -72,10 +69,7 @@ window.addEventListener('load', function() {
     else $('#RadioButton7 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton7 .ui-btn').css('height')}})
   try{NSB.addProperties(RadioButton7,undefined,true);}catch(e){console.log('error:' + e.message)}
   NSB.RadioButton_jqm_init('RadioButton8','288');
-  if (184>0) {
-    if (''=='') {
-      $('#RadioButton8 .ui-btn').css('height','184'/RadioButton8.getItemCount()) }
-    else $('#RadioButton8 .ui-btn').css('height','184') }
+  
   //if (288>0) $('#RadioButton8 .ui-btn').css('width','288');
   if (0>0) $('#RadioButton8 .ui-btn-text').css('font-size','0px');
   NSB.defineProperty(RadioButton8, 'Height', {set: function(h){if (''=='') {
@@ -98,70 +92,263 @@ window.addEventListener('load', function() {
       $('#RadioButton10 .ui-btn').css('height',h/RadioButton10.getItemCount()) }
     else $('#RadioButton10 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton10 .ui-btn').css('height')}})
   try{NSB.addProperties(RadioButton10,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton11','288');
+  
+  //if (288>0) $('#RadioButton11 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton11 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton11, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton11 .ui-btn').css('height',h/RadioButton11.getItemCount()) }
+    else $('#RadioButton11 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton11 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton11,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton12','288');
+  
+  //if (288>0) $('#RadioButton12 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton12 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton12, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton12 .ui-btn').css('height',h/RadioButton12.getItemCount()) }
+    else $('#RadioButton12 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton12 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton12,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton13','288');
+  
+  //if (288>0) $('#RadioButton13 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton13 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton13, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton13 .ui-btn').css('height',h/RadioButton13.getItemCount()) }
+    else $('#RadioButton13 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton13 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton13,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton14','288');
+  
+  //if (288>0) $('#RadioButton14 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton14 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton14, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton14 .ui-btn').css('height',h/RadioButton14.getItemCount()) }
+    else $('#RadioButton14 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton14 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton14,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton15','288');
+  
+  //if (288>0) $('#RadioButton15 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton15 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton15, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton15 .ui-btn').css('height',h/RadioButton15.getItemCount()) }
+    else $('#RadioButton15 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton15 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton15,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton16','288');
+  
+  //if (288>0) $('#RadioButton16 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton16 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton16, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton16 .ui-btn').css('height',h/RadioButton16.getItemCount()) }
+    else $('#RadioButton16 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton16 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton16,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton17','288');
+  
+  //if (288>0) $('#RadioButton17 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton17 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton17, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton17 .ui-btn').css('height',h/RadioButton17.getItemCount()) }
+    else $('#RadioButton17 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton17 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton17,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton18','288');
+  
+  //if (288>0) $('#RadioButton18 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton18 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton18, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton18 .ui-btn').css('height',h/RadioButton18.getItemCount()) }
+    else $('#RadioButton18 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton18 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton18,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton19','288');
+  
+  //if (288>0) $('#RadioButton19 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton19 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton19, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton19 .ui-btn').css('height',h/RadioButton19.getItemCount()) }
+    else $('#RadioButton19 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton19 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton19,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton20','288');
+  
+  //if (288>0) $('#RadioButton20 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton20 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton20, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton20 .ui-btn').css('height',h/RadioButton20.getItemCount()) }
+    else $('#RadioButton20 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton20 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton20,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton21','288');
+  
+  //if (288>0) $('#RadioButton21 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton21 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton21, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton21 .ui-btn').css('height',h/RadioButton21.getItemCount()) }
+    else $('#RadioButton21 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton21 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton21,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton22','288');
+  
+  //if (288>0) $('#RadioButton22 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton22 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton22, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton22 .ui-btn').css('height',h/RadioButton22.getItemCount()) }
+    else $('#RadioButton22 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton22 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton22,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton23','288');
+  
+  //if (288>0) $('#RadioButton23 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton23 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton23, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton23 .ui-btn').css('height',h/RadioButton23.getItemCount()) }
+    else $('#RadioButton23 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton23 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton23,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton24','288');
+  
+  //if (288>0) $('#RadioButton24 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton24 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton24, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton24 .ui-btn').css('height',h/RadioButton24.getItemCount()) }
+    else $('#RadioButton24 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton24 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton24,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton25','288');
+  
+  //if (288>0) $('#RadioButton25 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton25 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton25, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton25 .ui-btn').css('height',h/RadioButton25.getItemCount()) }
+    else $('#RadioButton25 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton25 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton25,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton26','288');
+  
+  //if (288>0) $('#RadioButton26 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton26 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton26, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton26 .ui-btn').css('height',h/RadioButton26.getItemCount()) }
+    else $('#RadioButton26 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton26 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton26,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton27','288');
+  
+  //if (288>0) $('#RadioButton27 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton27 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton27, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton27 .ui-btn').css('height',h/RadioButton27.getItemCount()) }
+    else $('#RadioButton27 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton27 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton27,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton28','288');
+  
+  //if (288>0) $('#RadioButton28 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton28 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton28, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton28 .ui-btn').css('height',h/RadioButton28.getItemCount()) }
+    else $('#RadioButton28 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton28 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton28,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton29','288');
+  
+  //if (288>0) $('#RadioButton29 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton29 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton29, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton29 .ui-btn').css('height',h/RadioButton29.getItemCount()) }
+    else $('#RadioButton29 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton29 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton29,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton30','288');
+  
+  //if (288>0) $('#RadioButton30 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton30 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton30, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton30 .ui-btn').css('height',h/RadioButton30.getItemCount()) }
+    else $('#RadioButton30 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton30 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton30,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton31','288');
+  
+  //if (288>0) $('#RadioButton31 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton31 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton31, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton31 .ui-btn').css('height',h/RadioButton31.getItemCount()) }
+    else $('#RadioButton31 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton31 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton31,undefined,true);}catch(e){console.log('error:' + e.message)}
+  NSB.RadioButton_jqm_init('RadioButton32','288');
+  
+  //if (288>0) $('#RadioButton32 .ui-btn').css('width','288');
+  if (0>0) $('#RadioButton32 .ui-btn-text').css('font-size','0px');
+  NSB.defineProperty(RadioButton32, 'Height', {set: function(h){if (''=='') {
+      $('#RadioButton32 .ui-btn').css('height',h/RadioButton32.getItemCount()) }
+    else $('#RadioButton32 .ui-btn').css('height',h) }, get: function(){return $('#RadioButton32 .ui-btn').css('height')}})
+  try{NSB.addProperties(RadioButton32,undefined,true);}catch(e){console.log('error:' + e.message)}
+  Label1.ontouchmove=function(e){e.stopPropagation()};
+  NSB.addProperties(Label1);
   Form1.style.display = 'none';
   
 }, false);
 Form1.onsubmit=function(event){window.event.stopPropagation();window.event.preventDefault()};
 NSB.addProperties(Form1);
-var Q=createMultiDimArray('10'),Qn,Qm,myCtrl=createMultiDimArray('10'),Ans=createMultiDimArray('10,4');
+var Q=createMultiDimArray('32'),Qn,Qm,myCtrl=createMultiDimArray('10'),Ans=createMultiDimArray('32'),Score;
 
-Q[1] = "Audience Orientation";
-Q[2] = "Introduction";
-Q[3] = "Topic Selection";
-Q[4] = "Purpose";
-Q[5] = "Organization";
-Q[6] = "Supporting Material";
-Q[7] = "Visual Aids";
-Q[8] = "Delivery";
-Q[9] = "Conclusion";
-Q[10] = "Ethics";
+Q[1] = "The speaker was audience centred.";
+Q[2] = "The speaker adapted to the listeners.";
+Q[3] = "The introduction caught my attention.";
+Q[4] = "The introduction provided an overview of the main ideas.";
+Q[5] = "The introduction established the speaker’s credibility.";
+Q[6] = "The introduction established motivation to listen.";
+Q[7] = "The topic was appropriate was to the audience.";
+Q[8] = "The topic was appropriate was to the occasion.";
+Q[9] = "The topic was appropriate was for the speaker.";
+Q[10] = "The topic was appropriate was for the time limit.";
+Q[11] = "The purpose was clear.";
+Q[12] = "The purpose was appropriate for the audience.";
+Q[13] = "The purpose was achieved.";
+Q[14] = "The speech had an introduction, body and conclusion.";
+Q[15] = "The speaker used transitions and signposts to clarify the organization.";
+Q[16] = "The main ideas were clear to the audience.";
+Q[17] = "The supporting material was credible.";
+Q[18] = "The supporting material was varied and interesting.";
+Q[19] = "The speaker used evidence to support conclusion.";
+Q[20] = "The speaker used appropriately used stories and illustrations.";
+Q[21] = "The visual aids were large to be seen clearly.";
+Q[22] = "The visual aids were attractive and understandable.";
+Q[23] = "The visual aids were introduced at appropriate points.";
+Q[24] = "The speaker made appropriate eye contact with the audience.";
+Q[25] = "The speaker made appropriately varied his or her voice tone.";
+Q[26] = "The speaker made used appropriate gestures.";
+Q[27] = "The speaker made used good posture and effective movement.";
+Q[28] = "The speaker’s summarize the key points.";
+Q[29] = "The speaker ended the speech in a memorable, effective way.";
+Q[30] = "The speaker cited sources for information and ideas appropriately.";
+Q[31] = "The speaker presented viewpoints other than his or her own.";
+Q[32] = "The speaker clearly stated the true purpose of the speech.";
 
-Ans[1][1] = "You were audience centered.";
-Ans[1][2] = "You adapted to the listeners.";
 
-Ans[2][1] = "Your introduction caught my attention.";
-Ans[2][2] = "Your introduction provided an overview of the main ideas.";
-Ans[2][3] = "Your introduction established your credibility.";
-Ans[2][4] = "Your introduction established motivation To listen.";
-
-Ans[3][1] = "Your topic was appropriate was to the audience.";
-Ans[3][2] = "Your topic was appropriate was to the occasion.";
-Ans[3][3] = "Your topic was appropriate was for the speaker.";
-Ans[3][4] = "Your topic was appropriate was for the Time limit.";
-
-Ans[4][1] = "Your purpose was clear.";
-Ans[4][2] = "Your purpose was appropriate for the audience.";
-Ans[4][3] = "Your purpose was achieved.";
-
-Ans[5][1] = "Your speech had an introduction, body and conclusion.";
-Ans[5][2] = "You used transitions and signposts to clarify the organization.";
-Ans[5][3] = "Your Main ideas were clear To the audience.";
-
-Ans[6][1] = "Your supporting material was credible.";
-Ans[6][2] = "Your supporting material was varied and interesting.";
-Ans[6][3] = "You used evidence to support conclusion.";
-Ans[6][4] = "You used appropriately used stories and illustrations.";
-
-Ans[7][1] = "Your visual aids were large to be seen clearly.";
-Ans[7][2] = "Your visual aids were attractive and understandable.";
-Ans[7][3] = "Your visual aids were introduced at appropriate points.";
-
-Ans[8][1] = "You made appropriate eye contact with the audience.";
-Ans[8][2] = "You made appropriately varied your voice tone.";
-Ans[8][3] = "You made used appropriate gestures.";
-Ans[8][4] = "You made used good posture and effective movement.";
-
-Ans[9][1] = "You summarize the key points.";
-Ans[9][2] = "You ended the speech in a memorable, effective way.";
-
-Ans[10][1] = "You cited sources for information and ideas appropriately.";
-Ans[10][2] = "You presented viewpoints other than your own.";
-Ans[10][3] = "You clearly stated the true purpose of the speech.";
+Ans[1] = "You were audience centered.";
+Ans[2] = "You adapted to the listeners.";
+Ans[3] = "Your introduction caught my attention.";
+Ans[4] = "Your introduction provided an overview of the main ideas.";
+Ans[5] = "Your introduction established your credibility.";
+Ans[6] = "Your introduction established motivation To listen.";
+Ans[7] = "Your topic was appropriate was to the audience.";
+Ans[8] = "Your topic was appropriate was to the occasion.";
+Ans[9] = "Your topic was appropriate was for the speaker.";
+Ans[10] = "Your topic was appropriate was for the Time limit.";
+Ans[11] = "Your purpose was clear.";
+Ans[12] = "Your purpose was appropriate for the audience.";
+Ans[13] = "Your purpose was achieved.";
+Ans[14] = "Your speech had an introduction, body and conclusion.";
+Ans[15] = "You used transitions and signposts to clarify the organization.";
+Ans[16] = "Your Main ideas were clear To the audience.";
+Ans[17] = "Your supporting material was credible.";
+Ans[18] = "Your supporting material was varied and interesting.";
+Ans[19] = "You used evidence to support conclusion.";
+Ans[20] = "You used appropriately used stories and illustrations.";
+Ans[21] = "Your visual aids were large to be seen clearly.";
+Ans[22] = "Your visual aids were attractive and understandable.";
+Ans[23] = "Your visual aids were introduced at appropriate points.";
+Ans[24] = "You made appropriate eye contact with the audience.";
+Ans[25] = "You made appropriately varied your voice tone.";
+Ans[26] = "You made used appropriate gestures.";
+Ans[27] = "You made used good posture and effective movement.";
+Ans[28] = "You summarize the key points.";
+Ans[29] = "You ended the speech in a memorable, effective way.";
+Ans[30] = "You cited sources for information and ideas appropriately.";
+Ans[31] = "You presented viewpoints other than your own.";
+Ans[32] = "You clearly stated the true purpose of the speech.";
 
 
 function Main() {
+  Score = 0;
   Qn = 1;
-  Qm = 10;
+  Qm = 32;
   Image1.Left = 0;
   Image1.Top = 0;
   Image1.Width = 320;
@@ -188,10 +375,13 @@ NavBar1.onclick = function(choice) { savethefunction_rvar="";
         for   (x = 1; x  <= Qm; x ++) {
           myCtrl[x] = eval("RadioButton"  +  x);
           y = myCtrl[x].value();
-          Mess.value  = Mess.value  +  '\n'  +  "  - "  +  Ans[x][y];
+          Score = Score + y;
+          if(y >= 3) {
+            Mess.value  = Mess.value  +  '\n'  +  "  - "  +  Ans[x];
+          }
         }
-
-        Mess.value = Mess.value  +  '\n'  +  '\n'  +  "I hope our evaluation will help you to become an even better presenter."  +  '\n'  +  '\n'  +  "Sincerely,"  +  '\n'  +  "The Evaluation Team";
+        Score = Score / 32;
+        Mess.value = Mess.value  +  '\n'  +  '\n'  +  "Your Score is "  +  Round(Score,2)  +  " out of 5"  +  '\n'  +  '\n'  +  "I hope our evaluation will help you to become an even better presenter."  +  '\n'  +  '\n'  +  "Sincerely,"  +  '\n'  +  "The Evaluation Team";
 
         ChangeForm(Form2);
       }
